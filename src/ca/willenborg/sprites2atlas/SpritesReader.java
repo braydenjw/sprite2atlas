@@ -91,9 +91,9 @@ public class SpritesReader {
 	        	spriteBuilder.setY( 
 	        			Integer.parseInt( spriteAttributes.getNamedItem( "y" ).getNodeValue() ));
 	        	spriteBuilder.setHeight( 
-	        			Integer.parseInt( spriteAttributes.getNamedItem( "w" ).getNodeValue() ));
-	        	spriteBuilder.setWidth( 
 	        			Integer.parseInt( spriteAttributes.getNamedItem( "h" ).getNodeValue() ));
+	        	spriteBuilder.setWidth( 
+	        			Integer.parseInt( spriteAttributes.getNamedItem( "w" ).getNodeValue() ));
 				return (Sprite)spriteBuilder.build();
 			} catch (Exception e) {
 				e.printStackTrace();
