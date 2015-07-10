@@ -25,7 +25,7 @@ public class AtlasWriter {
 	
 	private static String spriteEntry( Sprite sprite ) {
 		return String.format( "%s%n"
-				+ "\trotation: false%n"
+				+ "\trotate: false%n"
 				+ "\txy: %d, %d%n"
 				+ "\tsize: %d, %d%n"
 				+ "\torig: %d, %d%n"
