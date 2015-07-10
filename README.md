@@ -8,3 +8,6 @@ You can download the .jar (https://dl.dropboxusercontent.com/u/6608744/sprites2a
 
 ## How do I use it?
 Easy! Sprites2Atlas is a command-line tool with only two arguments, the input file path, and the desired output file path.  For example, `java -jar sprites2atlas.jar mygame.sprites mygame.atlas`.  After running that command, the .atlas file and the original sprite-sheet graphic can be placed in the assets folder of your libGDX project.
+
+## Is it done?
+Software is very rarely "done" and this application is quite far from it.  I've put in my personal time to make it work well for what I needed it for, but then I continued to make my game.  There are definitely some bugs and some use-cases I haven't covered.  If there is enough interest, I will come back to fix them, or you geniuses out there can checkout the source code and try it yourself. I'll be sure to QA any and all pull requests!
